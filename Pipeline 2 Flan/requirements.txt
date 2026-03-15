@@ -5,3 +5,4 @@ transformers
 sentencepiece
 accelerate
 rank-bm25
+sentence-transformers

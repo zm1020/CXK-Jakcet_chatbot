@@ -1,0 +1,6 @@
+# Pipeline 1: chatbot (embedders + optional local LLM)
+pandas
+numpy
+torch
+transformers
+sentence-transformers
