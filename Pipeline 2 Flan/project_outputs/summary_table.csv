@@ -1,0 +1,4 @@
+method,avg_runtime_sec,avg_num_results,has_results_rate,outerwear_precision_at_5,price_satisfaction_at_5,top1_type_match,hit_at_1,hit_at_3,mrr_at_5,ndcg_at_5,avg_relevance_at_5
+baseline,0.029026666666666666,5.0,1.0,1.0,0.9368421052631579,1.0,1.0,1.0,1.0,1.0,2.02
+flan,2.3235433333333333,4.5,0.9,0.9,0.7789473684210527,0.9,0.9,0.9,0.9,0.894464514608279,1.7666666666666666
+hybrid,2.0875733333333333,5.0,1.0,1.0,0.9473684210526315,1.0,1.0,1.0,1.0,1.0,2.02
