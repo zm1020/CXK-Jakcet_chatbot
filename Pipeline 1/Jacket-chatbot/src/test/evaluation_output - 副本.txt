@@ -1,0 +1,1881 @@
+BATCH EVALUATION OUTPUT
+
+TEST CASE 1
+================================================================================
+PROMPT: I want a men's waterproof winter jacket under 1500 dollars for commuting to work in cold weather.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'men', 'tei': 4, 'use_case': 'work', 'waterproof': True, 'windproof': None, 'keywords': ['winter', 'waterproof', 'cold', 'commute']}
+MAPPING: [('winter', 'winter', 1.0), ('waterproof', 'waterproof', 1.0), ('cold', 'cold', 1.0), ('commuting', 'commute', 0.917)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.675
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Woolford Jacket — $850 USD — score 0.656
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+3) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.655
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+4) Canada Goose Men's Lodge Hoody — $875 USD — score 0.651
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+5) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.650
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+
+TEST CASE 2
+================================================================================
+PROMPT: I want a women's down parka under 1800 dollars for extremely cold winter temperatures.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1800.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'parka', 'winter', 'extreme_cold']}
+MAPPING: [('down', 'down', 1.0), ('parka', 'parka', 1.0), ('winter', 'winter', 1.0), ('extremely_cold', 'extreme_cold', 0.717)]
+
+RESULTS:
+1) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.612
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+2) Canada Goose Women's Chelsea Parka Heritage — $1650 USD — score 0.294
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka-heritage/
+3) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.269
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+4) Canada Goose Women's Hybridge Lite Hoody CR — $795 USD — score 0.264
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hoody-cr/
+5) Canada Goose Women's Chelsea Parka Black Label - Updated — $1350 USD — score 0.260
+   https://www.escapeoutdoors.com/canada-goose-women-s-chelsea-parka-black-label-updated/
+
+TEST CASE 3
+================================================================================
+PROMPT: I want a men's rain jacket under 700 dollars that is waterproof and windproof for biking to school.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 700.0, 'gender': 'men', 'tei': None, 'use_case': 'school', 'waterproof': True, 'windproof': True, 'keywords': ['rain', 'jacket']}
+MAPPING: [('rain', 'rain', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.494
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+2) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.481
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+3) Canada Goose Men's Lockeport Jacket — $650 USD — score 0.453
+   https://www.escapeoutdoors.com/canada-goose-mens-lockeport-jacket/
+4) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.423
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+5) Canada Goose Men's Hybridge Knit Vest Black Label — $525 USD — score 0.405
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest-black-label/
+
+TEST CASE 4
+================================================================================
+PROMPT: I want a women's lightweight winter jacket under 900 dollars for everyday city use.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 900.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'outdoor', 'jacket', 'city']}
+MAPPING: [('winter', 'winter', 1.0), ('outdoor', 'outdoor', 1.0), ('jacket', 'jacket', 1.0), ('city', 'city', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Cypress Jacket — $895 USD — score 0.688
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-jacket/
+2) Canada Goose Women's Davie Jacket — $595 USD — score 0.684
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+3) Canada Goose Women's Salida Jacket — $650 USD — score 0.680
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+4) Canada Goose Women's Kenora Jacket — $625 USD — score 0.676
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+5) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.675
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+
+TEST CASE 5
+================================================================================
+PROMPT: I want a men's warm down jacket under 1200 dollars for winter travel in cold countries.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1200.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'winter', 'travel', 'cold', 'parka', 'warmth']}
+MAPPING: [('down', 'down', 1.0), ('winter', 'winter', 1.0), ('travel', 'travel', 1.0), ('cold', 'cold', 1.0), ('parka', 'parka', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.694
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Woolford Jacket — $850 USD — score 0.626
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+3) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.617
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+4) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.614
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+5) Canada Goose Men's Lodge Hoody — $875 USD — score 0.602
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+
+TEST CASE 6
+================================================================================
+PROMPT: I want a women's waterproof coat under 1100 dollars for rainy weather commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1100.0, 'gender': 'women', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'waterproof', 'commute', 'coat']}
+MAPPING: [('rain', 'rain', 1.0), ('waterproof', 'waterproof', 1.0), ('commuting', 'commute', 0.917), ('coating', 'coat', 0.629)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.292
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.277
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+3) Canada Goose Women's Salida Jacket — $650 USD — score 0.270
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+4) Canada Goose Women's Alliston Coat — $1095 USD — score 0.270
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+5) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.266
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+
+TEST CASE 7
+================================================================================
+PROMPT: I want a men's snow parka under 2000 dollars that is windproof for skiing trips.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 2000.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': True, 'keywords': ['snow', 'windproof', 'travel']}
+MAPPING: [('snow', 'snow', 1.0), ('windproof', 'windproof', 1.0), ('trips', 'travel', 0.793)]
+
+RESULTS:
+1) Canada Goose Men's MacMillan Parka Wool — $1425 USD — score 0.649
+   https://www.escapeoutdoors.com/canada-goose-mens-macmillan-parka-wool/
+2) Canada Goose Men's Lodge Hoody — $875 USD — score 0.616
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+3) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.607
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+4) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.602
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+5) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.601
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+
+TEST CASE 8
+================================================================================
+PROMPT: I want a women's winter jacket under 1000 dollars that is warm for daily commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 1000.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'jacket', 'commute', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('commuting', 'commute', 0.917), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.694
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+2) Canada Goose Women's Cypress Jacket — $895 USD — score 0.684
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-jacket/
+3) Canada Goose Women's Davie Jacket — $595 USD — score 0.683
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+4) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.679
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+5) Canada Goose Women's Ellison Jacket — $895 USD — score 0.666
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+
+TEST CASE 9
+================================================================================
+PROMPT: I want a men's waterproof shell jacket under 600 dollars for heavy rain.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 600.0, 'gender': 'men', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['waterproof', 'shell', 'jacket', 'rain']}
+MAPPING: [('waterproof', 'waterproof', 1.0), ('shell', 'shell', 1.0), ('jacket', 'jacket', 1.0), ('heavy rain', 'rain', 0.838)]
+
+RESULTS:
+1) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.666
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+2) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.346
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+3) Canada Goose Men's Hybridge Knit Vest Black Label — $525 USD — score 0.332
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest-black-label/
+4) Canada Goose Men's Stormont 1/4 Zip Sweater — $525 USD — score 0.278
+   https://www.escapeoutdoors.com/canada-goose-mens-stormont-1-4-zip-sweater/
+5) Canada Goose Men's Huron Full Zip Hoody — $425 USD — score 0.269
+   https://www.escapeoutdoors.com/canada-goose-mens-huron-full-zip-hoody/
+
+TEST CASE 10
+================================================================================
+PROMPT: I want a women's down winter coat under 1600 dollars for very cold climates.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1600.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'winter', 'coat', 'cold']}
+MAPPING: [('down', 'down', 1.0), ('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('very cold', 'cold', 0.839)]
+
+RESULTS:
+1) Canada Goose Women's Alliston Coat — $1095 USD — score 0.642
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+2) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.559
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+3) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.522
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+4) Canada Goose Women's Marlow Coat — $1375 USD — score 0.521
+   https://www.escapeoutdoors.com/canada-goose-womens-marlow-coat/
+5) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.446
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+
+TEST CASE 11
+================================================================================
+PROMPT: I want a men's everyday winter jacket under 900 dollars that is windproof.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 900.0, 'gender': 'men', 'tei': None, 'use_case': 'everyday', 'waterproof': False, 'windproof': True, 'keywords': ['winter', 'jacket', 'windproof']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('windproof', 'windproof', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Hoody — $875 USD — score 0.684
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+2) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.682
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+3) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.680
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+4) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.535
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+5) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.525
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+
+TEST CASE 12
+================================================================================
+PROMPT: I want a women's travel jacket under 1300 dollars that is warm and lightweight.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1300.0, 'gender': 'women', 'tei': None, 'use_case': 'travel', 'waterproof': None, 'windproof': None, 'keywords': ['travel', 'warmth']}
+MAPPING: [('travel', 'travel', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.706
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+2) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.699
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+3) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.693
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+4) Canada Goose Women's Ellison Jacket — $895 USD — score 0.693
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+5) Canada Goose Women's Davie Jacket — $595 USD — score 0.692
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+
+TEST CASE 13
+================================================================================
+PROMPT: I want a men's winter parka under 1800 dollars for snowy mountain trips.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1800.0, 'gender': 'men', 'tei': 4, 'use_case': 'extreme_cold', 'waterproof': True, 'windproof': True, 'keywords': ['snow', 'winter', 'parka']}
+MAPPING: [('snow', 'snow', 1.0), ('winter', 'winter', 1.0), ('parka', 'parka', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Wyndham Parka Heritage — $1675 USD — score 0.305
+   https://www.escapeoutdoors.com/canada-goose-mens-wyndham-parka-heritage/
+2) Canada Goose Men's Carson Parka — $1495 USD — score 0.293
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka/
+3) Canada Goose Men's Chateau Parka Heritage — $1775 USD — score 0.289
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-heritage/
+4) Canada Goose Men's Chateau Parka Black Label Heritage — $1775 USD — score 0.287
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-black-label-heritage/
+5) Canada Goose Men's MacMillan Parka Wool — $1425 USD — score 0.280
+   https://www.escapeoutdoors.com/canada-goose-mens-macmillan-parka-wool/
+
+TEST CASE 14
+================================================================================
+PROMPT: I want a women's waterproof winter jacket under 1000 dollars for rainy winters.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1000.0, 'gender': 'women', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['waterproof', 'winter', 'jacket', 'rain']}
+MAPPING: [('waterproof', 'waterproof', 1.0), ('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('rainy', 'rain', 0.925)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.600
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Salida Jacket — $650 USD — score 0.576
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+3) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.564
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+4) Canada Goose Women's Cypress Hoody — $950 USD — score 0.537
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody/
+5) Canada Goose Women's Davie Jacket — $595 USD — score 0.434
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+
+TEST CASE 15
+================================================================================
+PROMPT: I want a men's insulated jacket under 1200 dollars for everyday winter use.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1200.0, 'gender': 'men', 'tei': 3, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'jacket', 'everyday', 'winter']}
+MAPPING: [('insulated', 'insulated', 1.0), ('jacket', 'jacket', 1.0), ('everyday', 'everyday', 1.0), ('winter', 'winter', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.712
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.698
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+3) Canada Goose Men's Lodge Hoody — $875 USD — score 0.689
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+4) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.685
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+5) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.672
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+
+TEST CASE 16
+================================================================================
+PROMPT: I want a women's warm coat under 1500 dollars for commuting to work.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['jacket', 'commute', 'warmth']}
+MAPPING: [('jacket', 'jacket', 1.0), ('commute', 'commute', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Marlow Coat — $1375 USD — score 0.668
+   https://www.escapeoutdoors.com/canada-goose-womens-marlow-coat/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.665
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Chelsea Parka — $1350 USD — score 0.575
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka/
+4) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.574
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+5) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.573
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+
+TEST CASE 17
+================================================================================
+PROMPT: I want a men's rainproof jacket under 700 dollars for daily cycling.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 700.0, 'gender': 'men', 'tei': None, 'use_case': 'everyday', 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'jacket']}
+MAPPING: [('rain', 'rain', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.670
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+2) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.523
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+3) Canada Goose Men's Lockeport Jacket — $650 USD — score 0.478
+   https://www.escapeoutdoors.com/canada-goose-mens-lockeport-jacket/
+4) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.445
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+5) Canada Goose Men's Hybridge Knit Vest Black Label — $525 USD — score 0.426
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest-black-label/
+
+TEST CASE 18
+================================================================================
+PROMPT: I want a women's down jacket under 900 dollars for casual winter wear.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 900.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'jacket', 'winter']}
+MAPPING: [('down', 'down', 1.0), ('jacket', 'jacket', 1.0), ('winter', 'winter', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Davie Jacket — $595 USD — score 0.696
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+2) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.682
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+3) Canada Goose Women's Ellison Jacket — $895 USD — score 0.679
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+4) Canada Goose Women's Kenora Jacket — $625 USD — score 0.677
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+5) Canada Goose Women's Minden Jacket — $595 USD — score 0.677
+   https://www.escapeoutdoors.com/canada-goose-womens-minden-jacket/
+
+TEST CASE 19
+================================================================================
+PROMPT: I want a men's windproof winter coat under 1400 dollars for city commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1400.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': False, 'windproof': True, 'keywords': ['winter', 'coat', 'windproof', 'city', 'commute']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('windproof', 'windproof', 1.0), ('city', 'city', 1.0), ('commuting', 'commute', 0.917)]
+
+RESULTS:
+1) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.298
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+2) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.288
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+3) Canada Goose Men's Lodge Hoody — $875 USD — score 0.284
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+4) Canada Goose Men's Wyndham Parka - Updated — $1395 USD — score 0.277
+   https://www.escapeoutdoors.com/canada-goose-men-s-wyndham-parka-updated/
+5) Canada Goose Men's Stormont 1/4 Zip Sweater — $525 USD — score 0.277
+   https://www.escapeoutdoors.com/canada-goose-mens-stormont-1-4-zip-sweater/
+
+TEST CASE 20
+================================================================================
+PROMPT: I want a women's warm parka under 2000 dollars for extremely cold winters.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 2000.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['parka', 'winter', 'warmth', 'extreme_cold']}
+MAPPING: [('parka', 'parka', 1.0), ('winters', 'winter', 0.904), ('warm', 'warmth', 0.833), ('extremely cold', 'extreme_cold', 0.822)]
+
+RESULTS:
+1) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.645
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+2) Canada Goose Women's Rossclair Parka Heritage — $1775 USD — score 0.506
+   https://www.escapeoutdoors.com/canada-goose-womens-rossclair-parka-heritage/
+3) Canada Goose Women's Rossclair Parka Print — $1695 USD — score 0.499
+   https://www.escapeoutdoors.com/canada-goose-women-s-rossclair-parka-print/
+4) Canada Goose Women's Leather Rib Glove — $195 USD — score 0.449
+   https://www.escapeoutdoors.com/canada-goose-womens-leather-rib-glove/
+5) Canada Goose Women's Alliston Coat — $1095 USD — score 0.422
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+
+TEST CASE 21
+================================================================================
+PROMPT: I want a men's waterproof winter coat under 1600 dollars for snowy weather.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1600.0, 'gender': 'men', 'tei': 4, 'use_case': 'extreme_cold', 'waterproof': True, 'windproof': None, 'keywords': ['snow', 'winter', 'coat']}
+MAPPING: [('snow', 'snow', 1.0), ('winter', 'winter', 1.0), ('coat', 'coat', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.642
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Carson Parka — $1495 USD — score 0.624
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka/
+3) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.618
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+4) Canada Goose Men's Crofton Puffer — $1125 USD — score 0.574
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-puffer/
+5) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.507
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+
+TEST CASE 22
+================================================================================
+PROMPT: I want a women's insulated jacket under 1100 dollars for everyday winter activities.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1100.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'jacket', 'everyday', 'winter']}
+MAPPING: [('insulated', 'insulated', 1.0), ('jacket', 'jacket', 1.0), ('everyday', 'everyday', 1.0), ('winter', 'winter', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Davie Jacket — $595 USD — score 0.532
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+2) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.523
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+3) Canada Goose Women's Cypress Jacket — $895 USD — score 0.520
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-jacket/
+4) Canada Goose Women's Ellison Jacket — $895 USD — score 0.519
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+5) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.519
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+
+TEST CASE 23
+================================================================================
+PROMPT: I want a men's winter travel jacket under 1300 dollars that is warm and windproof.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1300.0, 'gender': 'men', 'tei': None, 'use_case': 'travel', 'waterproof': True, 'windproof': True, 'keywords': ['winter', 'travel', 'windproof', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('travel', 'travel', 1.0), ('windproof', 'windproof', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.701
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.700
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+3) Canada Goose Men's Lodge Hoody — $875 USD — score 0.690
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+4) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.550
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+5) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.549
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+
+TEST CASE 24
+================================================================================
+PROMPT: I want a women's rain jacket under 800 dollars for commuting in rainy weather.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 800.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'jacket']}
+MAPPING: [('rain', 'rain', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.520
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Salida Jacket — $650 USD — score 0.505
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+3) Canada Goose Women's Davie Jacket — $595 USD — score 0.486
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+4) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.463
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+5) Canada Goose Women's Minden Jacket — $595 USD — score 0.457
+   https://www.escapeoutdoors.com/canada-goose-womens-minden-jacket/
+
+TEST CASE 25
+================================================================================
+PROMPT: I want a men's warm winter jacket under 1500 dollars for daily outdoor use.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'men', 'tei': 4, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'jacket', 'outdoor', 'everyday', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('outdoor', 'outdoor', 1.0), ('daily', 'everyday', 0.873), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Men's Woolford Jacket — $850 USD — score 0.705
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+2) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.698
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+3) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.698
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+4) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.688
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+5) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.688
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+
+TEST CASE 26
+================================================================================
+PROMPT: I want a women's down parka under 1900 dollars for cold mountain trips.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1900.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'parka', 'cold', 'travel']}
+MAPPING: [('down', 'down', 1.0), ('parka', 'parka', 1.0), ('cold', 'cold', 1.0), ('trips', 'travel', 0.793)]
+
+RESULTS:
+1) Canada Goose Women's Chelsea Parka Heritage — $1650 USD — score 0.283
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka-heritage/
+2) Canada Goose Women's Shelburne Parka Tonal Label — $1475 USD — score 0.267
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-tonal-label/
+3) Canada Goose Women's Rossclair Parka Heritage — $1775 USD — score 0.265
+   https://www.escapeoutdoors.com/canada-goose-womens-rossclair-parka-heritage/
+4) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.262
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+5) Canada Goose Women's Shelburne Parka Black Label - Updated — $1475 USD — score 0.261
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-black-label-updated/
+
+TEST CASE 27
+================================================================================
+PROMPT: I want a men's waterproof coat under 1000 dollars for heavy rain commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1000.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'waterproof', 'commute', 'coat']}
+MAPPING: [('rain', 'rain', 1.0), ('waterproof', 'waterproof', 1.0), ('commuting', 'commute', 0.917), ('coating', 'coat', 0.629)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.680
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.613
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+3) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.279
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+4) Canada Goose Men's Lodge Hoody — $875 USD — score 0.262
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+5) Canada Goose Men's Stormont 1/4 Zip Sweater — $525 USD — score 0.261
+   https://www.escapeoutdoors.com/canada-goose-mens-stormont-1-4-zip-sweater/
+
+TEST CASE 28
+================================================================================
+PROMPT: I want a women's winter coat under 1200 dollars that is stylish and warm.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': None, 'price_max': 1200.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'coat', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Alliston Coat — $1095 USD — score 0.642
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+2) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.567
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+3) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.534
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+4) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.532
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+5) Canada Goose Women's Hybridge Lite Hooded Coat — $725 USD — score 0.520
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hooded-coat/
+
+TEST CASE 29
+================================================================================
+PROMPT: I want a men's down jacket under 1100 dollars for travel in cold regions.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1100.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'jacket', 'travel', 'cold', 'extreme_cold']}
+MAPPING: [('down', 'down', 1.0), ('jacket', 'jacket', 1.0), ('travel', 'travel', 1.0), ('cold', 'cold', 1.0), ('extreme_cold', 'extreme_cold', 0.866)]
+
+RESULTS:
+1) Canada Goose Men's Woolford Jacket — $850 USD — score 0.699
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+2) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.680
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+3) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.677
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+4) Canada Goose Men's Lodge Hoody — $875 USD — score 0.665
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+5) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.660
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+
+TEST CASE 30
+================================================================================
+PROMPT: I want a women's windproof winter jacket under 900 dollars for everyday use.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 900.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': True, 'windproof': True, 'keywords': ['winter', 'jacket', 'everyday', 'windproof']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('everyday', 'everyday', 1.0), ('windproof', 'windproof', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.528
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Salida Jacket — $650 USD — score 0.504
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+3) Canada Goose Women's Davie Jacket — $595 USD — score 0.493
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+4) Canada Goose Women's Ellison Jacket — $895 USD — score 0.492
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+5) Canada Goose Women's Cypress Jacket — $895 USD — score 0.487
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-jacket/
+
+TEST CASE 31
+================================================================================
+PROMPT: I want a men's snow jacket under 1700 dollars for winter sports.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1700.0, 'gender': 'men', 'tei': 4, 'use_case': None, 'waterproof': True, 'windproof': True, 'keywords': ['snow', 'jacket', 'winter']}
+MAPPING: [('snow', 'snow', 1.0), ('jacket', 'jacket', 1.0), ('winter_sports', 'winter', 0.689)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.554
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.542
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+3) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.541
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+4) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.533
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+5) Canada Goose Men's Woolford Jacket — $850 USD — score 0.523
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+
+TEST CASE 32
+================================================================================
+PROMPT: I want a women's waterproof jacket under 1000 dollars for rainy city weather.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1000.0, 'gender': 'women', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'waterproof', 'city']}
+MAPPING: [('rain', 'rain', 1.0), ('waterproof', 'waterproof', 1.0), ('city', 'city', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.572
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Salida Jacket — $650 USD — score 0.555
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+3) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.542
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+4) Canada Goose Women's Cypress Hoody — $950 USD — score 0.517
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody/
+5) Canada Goose Women's Davie Jacket — $595 USD — score 0.413
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+
+TEST CASE 33
+================================================================================
+PROMPT: I want a men's warm parka under 2000 dollars for harsh winter climates.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 2000.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['parka', 'winter', 'warmth']}
+MAPPING: [('parka', 'parka', 1.0), ('winter', 'winter', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Men's Chateau Parka Heritage — $1775 USD — score 0.689
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-heritage/
+2) Canada Goose Men's Chateau Parka Black Label Heritage — $1775 USD — score 0.672
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-black-label-heritage/
+3) Canada Goose Men's Carson Parka — $1495 USD — score 0.663
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka/
+4) Canada Goose Men's Wyndham Parka Heritage — $1675 USD — score 0.662
+   https://www.escapeoutdoors.com/canada-goose-mens-wyndham-parka-heritage/
+5) Canada Goose Men's MacMillan Parka Wool — $1425 USD — score 0.650
+   https://www.escapeoutdoors.com/canada-goose-mens-macmillan-parka-wool/
+
+TEST CASE 34
+================================================================================
+PROMPT: I want a women's insulated coat under 1400 dollars for commuting to the office.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1400.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'jacket', 'commute']}
+MAPPING: [('insulated', 'insulated', 1.0), ('jacket', 'jacket', 1.0), ('commute', 'commute', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Chelsea Parka — $1350 USD — score 0.511
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka/
+2) Canada Goose Women's Chelsea Parka Black Label - Updated — $1350 USD — score 0.508
+   https://www.escapeoutdoors.com/canada-goose-women-s-chelsea-parka-black-label-updated/
+3) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.506
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+4) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.503
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+5) Canada Goose Women's Aurora Parka — $1350 USD — score 0.501
+   https://www.escapeoutdoors.com/canada-goose-womens-aurora-parka/
+
+TEST CASE 35
+================================================================================
+PROMPT: I want a men's winter jacket under 1000 dollars that is durable for daily wear.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 1000.0, 'gender': 'men', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'jacket']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.687
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.682
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+3) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.677
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+4) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.675
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+5) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.671
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+
+TEST CASE 36
+================================================================================
+PROMPT: I want a women's down coat under 1500 dollars for snowy winter trips.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'coat', 'winter', 'snow', 'travel']}
+MAPPING: [('down', 'down', 1.0), ('coat', 'coat', 1.0), ('winter', 'winter', 1.0), ('snowy', 'snow', 0.898), ('trips', 'travel', 0.793)]
+
+RESULTS:
+1) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.659
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.648
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Hybridge Lite Hooded Coat — $725 USD — score 0.639
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hooded-coat/
+4) Canada Goose Women's Cypress Hoody — $950 USD — score 0.629
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody/
+5) Canada Goose Women's Marlow Coat — $1375 USD — score 0.624
+   https://www.escapeoutdoors.com/canada-goose-womens-marlow-coat/
+
+TEST CASE 37
+================================================================================
+PROMPT: I want a men's waterproof jacket under 900 dollars for rainy commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 900.0, 'gender': 'men', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'waterproof', 'jacket', 'commute']}
+MAPPING: [('rain', 'rain', 1.0), ('waterproof', 'waterproof', 1.0), ('jacket', 'jacket', 1.0), ('commuting', 'commute', 0.917)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.728
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.645
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+3) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.543
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+4) Canada Goose Men's Crofton Jacket — $895 USD — score 0.518
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket/
+5) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.419
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+
+TEST CASE 38
+================================================================================
+PROMPT: I want a women's winter parka under 1800 dollars that is very warm.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1800.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'parka', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('parka', 'parka', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Chelsea Parka Black Label - Updated — $1350 USD — score 0.659
+   https://www.escapeoutdoors.com/canada-goose-women-s-chelsea-parka-black-label-updated/
+2) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.659
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+3) Canada Goose Women's Chelsea Parka — $1350 USD — score 0.655
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka/
+4) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.655
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+5) Canada Goose Women's Rossclair Parka Heritage — $1775 USD — score 0.650
+   https://www.escapeoutdoors.com/canada-goose-womens-rossclair-parka-heritage/
+
+TEST CASE 39
+================================================================================
+PROMPT: I want a men's travel jacket under 1200 dollars that works for cold weather.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1200.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['travel', 'cold', 'jacket']}
+MAPPING: [('travel', 'travel', 1.0), ('cold', 'cold', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.696
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+2) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.695
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+3) Canada Goose Men's Woolford Jacket — $850 USD — score 0.692
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+4) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.687
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+5) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.686
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+
+TEST CASE 40
+================================================================================
+PROMPT: I want a women's warm jacket under 900 dollars for everyday winter use.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 900.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['jacket', 'everyday', 'winter', 'warmth']}
+MAPPING: [('jacket', 'jacket', 1.0), ('everyday', 'everyday', 1.0), ('winter', 'winter', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.714
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+2) Canada Goose Women's Minden Jacket — $595 USD — score 0.701
+   https://www.escapeoutdoors.com/canada-goose-womens-minden-jacket/
+3) Canada Goose Women's Davie Jacket — $595 USD — score 0.700
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+4) Canada Goose Women's Ellison Jacket — $895 USD — score 0.695
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+5) Canada Goose Women's Cypress Jacket — $895 USD — score 0.689
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-jacket/
+
+TEST CASE 41
+================================================================================
+PROMPT: I want a men's winter coat under 1600 dollars that is windproof and warm.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1600.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': True, 'keywords': ['winter', 'coat', 'windproof', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('windproof', 'windproof', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.664
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Lodge Hoody — $875 USD — score 0.661
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+3) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.660
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+4) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.516
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+5) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.502
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+
+TEST CASE 42
+================================================================================
+PROMPT: I want a women's waterproof rain jacket under 700 dollars for stormy weather.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 700.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'waterproof', 'storm']}
+MAPPING: [('rain', 'rain', 1.0), ('waterproof', 'waterproof', 1.0), ('stormy_weather', 'storm', 0.63)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.590
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Salida Jacket — $650 USD — score 0.564
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+3) Canada Goose Women's Davie Jacket — $595 USD — score 0.417
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+4) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.395
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+5) Canada Goose Women's Minden Jacket — $595 USD — score 0.386
+   https://www.escapeoutdoors.com/canada-goose-womens-minden-jacket/
+
+TEST CASE 43
+================================================================================
+PROMPT: I want a men's insulated winter jacket under 1400 dollars for commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1400.0, 'gender': 'men', 'tei': 4, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'winter', 'jacket', 'commute']}
+MAPPING: [('insulated', 'insulated', 1.0), ('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('commuting', 'commute', 0.917)]
+
+RESULTS:
+1) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.682
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+2) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.678
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+3) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.666
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+4) Canada Goose Men's Lodge Hoody — $875 USD — score 0.664
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+5) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.659
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+
+TEST CASE 44
+================================================================================
+PROMPT: I want a women's snow parka under 1900 dollars for cold outdoor activities.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1900.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': True, 'keywords': ['snow', 'parka']}
+MAPPING: [('snow', 'snow', 1.0), ('parka', 'parka', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Chelsea Parka Heritage — $1650 USD — score 0.315
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka-heritage/
+2) Canada Goose Women's Rossclair Parka Heritage — $1775 USD — score 0.292
+   https://www.escapeoutdoors.com/canada-goose-womens-rossclair-parka-heritage/
+3) Canada Goose Women's Shelburne Parka Black Label - Updated — $1475 USD — score 0.292
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-black-label-updated/
+4) Canada Goose Women's Shelburne Parka Tonal Label — $1475 USD — score 0.292
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-tonal-label/
+5) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.277
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+
+TEST CASE 45
+================================================================================
+PROMPT: I want a men's down coat under 1500 dollars for very cold weather.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'coat', 'cold']}
+MAPPING: [('down', 'down', 1.0), ('coat', 'coat', 1.0), ('very cold', 'cold', 0.839)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.552
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Woolford Jacket — $850 USD — score 0.551
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+3) Canada Goose Men's Carson Parka — $1495 USD — score 0.543
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka/
+4) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.542
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+5) Canada Goose Men's Lodge Hoody — $875 USD — score 0.542
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+
+TEST CASE 46
+================================================================================
+PROMPT: I want a women's everyday winter jacket under 800 dollars that is warm.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 800.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'jacket', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.705
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+2) Canada Goose Women's Minden Jacket — $595 USD — score 0.690
+   https://www.escapeoutdoors.com/canada-goose-womens-minden-jacket/
+3) Canada Goose Women's Davie Jacket — $595 USD — score 0.687
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+4) Canada Goose Women's Hybridge Lite Jacket — $750 USD — score 0.664
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-jacket/
+5) Canada Goose Women's Salida Jacket — $650 USD — score 0.509
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+
+TEST CASE 47
+================================================================================
+PROMPT: I want a men's waterproof shell jacket under 600 dollars for rainstorms.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 600.0, 'gender': 'men', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['waterproof', 'shell', 'jacket']}
+MAPPING: [('waterproof', 'waterproof', 1.0), ('shell', 'shell', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.668
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+2) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.362
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+3) Canada Goose Men's Hybridge Knit Vest Black Label — $525 USD — score 0.348
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest-black-label/
+4) Canada Goose Men's Stormont 1/4 Zip Sweater — $525 USD — score 0.287
+   https://www.escapeoutdoors.com/canada-goose-mens-stormont-1-4-zip-sweater/
+5) Canada Goose Men's Huron Full Zip Hoody — $425 USD — score 0.269
+   https://www.escapeoutdoors.com/canada-goose-mens-huron-full-zip-hoody/
+
+TEST CASE 48
+================================================================================
+PROMPT: I want a women's winter travel coat under 1300 dollars that is lightweight and warm.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1300.0, 'gender': 'women', 'tei': None, 'use_case': 'travel', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'travel', 'coat', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('travel', 'travel', 1.0), ('coat', 'coat', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.685
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.655
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Hybridge Lite Hooded Coat — $725 USD — score 0.505
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hooded-coat/
+4) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.495
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+5) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.494
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+
+TEST CASE 49
+================================================================================
+PROMPT: I want a men's warm jacket under 1200 dollars for winter hiking trips.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1200.0, 'gender': 'men', 'tei': 4, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['hiking', 'winter', 'warmth', 'travel']}
+MAPPING: [('hiking', 'hiking', 1.0), ('winter', 'winter', 1.0), ('warm', 'warmth', 0.833), ('trips', 'travel', 0.793)]
+
+RESULTS:
+1) Canada Goose Men's Woolford Jacket — $850 USD — score 0.712
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+2) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.538
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+3) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.534
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+4) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.521
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+5) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.521
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+
+TEST CASE 50
+================================================================================
+PROMPT: I want a women's down jacket under 1100 dollars for city winters.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1100.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['down', 'jacket', 'city', 'winter']}
+MAPPING: [('down', 'down', 1.0), ('jacket', 'jacket', 1.0), ('city', 'city', 1.0), ('winters', 'winter', 0.904)]
+
+RESULTS:
+1) Canada Goose Women's Davie Jacket — $595 USD — score 0.685
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+2) Canada Goose Women's Ellison Jacket — $895 USD — score 0.668
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+3) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.665
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+4) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.662
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+5) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.661
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+
+TEST CASE 51
+================================================================================
+PROMPT: I want a men's windproof winter parka under 2000 dollars for harsh cold climates.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 2000.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': True, 'windproof': True, 'keywords': ['winter', 'parka', 'cold', 'windproof']}
+MAPPING: [('winter', 'winter', 1.0), ('parka', 'parka', 1.0), ('cold', 'cold', 1.0), ('windproof', 'windproof', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's MacMillan Parka Wool — $1425 USD — score 0.647
+   https://www.escapeoutdoors.com/canada-goose-mens-macmillan-parka-wool/
+2) Canada Goose Men's Lodge Hoody — $875 USD — score 0.600
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+3) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.594
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+4) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.586
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+5) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.585
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+
+TEST CASE 52
+================================================================================
+PROMPT: I want a women's waterproof coat under 1000 dollars for rainy days.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1000.0, 'gender': 'women', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['waterproof', 'coat', 'rain']}
+MAPPING: [('waterproof', 'waterproof', 1.0), ('coat', 'coat', 1.0), ('rainy', 'rain', 0.925)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.640
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Hybridge Lite Hooded Coat — $725 USD — score 0.591
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hooded-coat/
+3) Canada Goose Women's Salida Jacket — $650 USD — score 0.457
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+4) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.443
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+5) Canada Goose Women's Cypress Hoody — $950 USD — score 0.431
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody/
+
+TEST CASE 53
+================================================================================
+PROMPT: I want a men's winter jacket under 900 dollars for everyday commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 900.0, 'gender': 'men', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'jacket', 'commute']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('commuting', 'commute', 0.917)]
+
+RESULTS:
+1) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.665
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+2) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.656
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+3) Canada Goose Men's Woolford Jacket — $850 USD — score 0.655
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+4) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.654
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+5) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.650
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+
+TEST CASE 54
+================================================================================
+PROMPT: I want a women's insulated jacket under 1200 dollars for winter travel.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1200.0, 'gender': 'women', 'tei': None, 'use_case': 'travel', 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'winter', 'travel']}
+MAPPING: [('insulated', 'insulated', 1.0), ('winter', 'winter', 1.0), ('travel', 'travel', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.536
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+2) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.522
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+3) Canada Goose Women's Davie Jacket — $595 USD — score 0.521
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+4) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.520
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+5) Canada Goose Women's Ellison Jacket — $895 USD — score 0.516
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+
+TEST CASE 55
+================================================================================
+PROMPT: I want a men's down parka under 1800 dollars for cold mountain weather.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1800.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['down', 'parka', 'cold']}
+MAPPING: [('down', 'down', 1.0), ('parka', 'parka', 1.0), ('cold', 'cold', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Chateau Parka Black Label Heritage — $1775 USD — score 0.618
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-black-label-heritage/
+2) Canada Goose Men's Chateau Parka Heritage — $1775 USD — score 0.617
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-heritage/
+3) Canada Goose Men's Wyndham Parka Heritage — $1675 USD — score 0.616
+   https://www.escapeoutdoors.com/canada-goose-mens-wyndham-parka-heritage/
+4) Canada Goose Men's Carson Parka — $1495 USD — score 0.608
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka/
+5) Canada Goose Men's Carson Parka Heritage — $1775 USD — score 0.583
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka-heritage/
+
+TEST CASE 56
+================================================================================
+PROMPT: I want a women's winter coat under 1400 dollars that is stylish and warm.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': None, 'price_max': 1400.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'coat', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Marlow Coat — $1375 USD — score 0.647
+   https://www.escapeoutdoors.com/canada-goose-womens-marlow-coat/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.646
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.572
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+4) Canada Goose Women's Chelsea Parka Black Label - Updated — $1350 USD — score 0.551
+   https://www.escapeoutdoors.com/canada-goose-women-s-chelsea-parka-black-label-updated/
+5) Canada Goose Women's Chelsea Parka — $1350 USD — score 0.550
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka/
+
+TEST CASE 57
+================================================================================
+PROMPT: I want a men's waterproof winter jacket under 1000 dollars for rainy snow.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1000.0, 'gender': 'men', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['winter', 'jacket', 'waterproof', 'rain']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('waterproof', 'waterproof', 1.0), ('rainy', 'rain', 0.925)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.755
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.667
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+3) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.555
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+4) Canada Goose Men's Crofton Jacket — $895 USD — score 0.523
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket/
+5) Canada Goose Men's Crofton Hoody Black Label — $950 USD — score 0.522
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-hoody-black-label/
+
+TEST CASE 58
+================================================================================
+PROMPT: I want a women's lightweight winter jacket under 800 dollars for casual wear.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 800.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'jacket']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Davie Jacket — $595 USD — score 0.696
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+2) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.692
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+3) Canada Goose Women's Kenora Jacket — $625 USD — score 0.689
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+4) Canada Goose Women's Minden Jacket — $595 USD — score 0.686
+   https://www.escapeoutdoors.com/canada-goose-womens-minden-jacket/
+5) Canada Goose Women's Salida Jacket — $650 USD — score 0.685
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+
+TEST CASE 59
+================================================================================
+PROMPT: I want a men's snow jacket under 1700 dollars that is windproof and warm.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1700.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': True, 'windproof': True, 'keywords': ['snow', 'windproof', 'warmth']}
+MAPPING: [('snow', 'snow', 1.0), ('windproof', 'windproof', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.698
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.692
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+3) Canada Goose Men's Lodge Hoody — $875 USD — score 0.691
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+4) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.602
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+5) Canada Goose Men's Woolford Jacket — $850 USD — score 0.584
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+
+TEST CASE 60
+================================================================================
+PROMPT: I want a women's warm coat under 1500 dollars for work commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'women', 'tei': None, 'use_case': 'work', 'waterproof': None, 'windproof': None, 'keywords': ['jacket', 'commute', 'warmth']}
+MAPPING: [('jacket', 'jacket', 1.0), ('commuting', 'commute', 0.917), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Marlow Coat — $1375 USD — score 0.666
+   https://www.escapeoutdoors.com/canada-goose-womens-marlow-coat/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.664
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.571
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+4) Canada Goose Women's Chelsea Parka — $1350 USD — score 0.570
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka/
+5) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.570
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+
+TEST CASE 61
+================================================================================
+PROMPT: I want a men's insulated jacket under 1200 dollars for winter walking.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1200.0, 'gender': 'men', 'tei': 3, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'jacket', 'winter', 'hiking']}
+MAPPING: [('insulated', 'insulated', 1.0), ('jacket', 'jacket', 1.0), ('winter', 'winter', 1.0), ('walking', 'hiking', 0.653)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.702
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.699
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+3) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.687
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+4) Canada Goose Men's Lodge Hoody — $875 USD — score 0.681
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+5) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.659
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+
+TEST CASE 62
+================================================================================
+PROMPT: I want a women's winter parka under 2000 dollars for very cold climates.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 2000.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'parka', 'cold', 'extreme_cold']}
+MAPPING: [('winter', 'winter', 1.0), ('parka', 'parka', 1.0), ('cold', 'cold', 1.0), ('extreme_cold', 'extreme_cold', 0.866)]
+
+RESULTS:
+1) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.640
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+2) Canada Goose Women's Chelsea Parka Heritage — $1650 USD — score 0.322
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka-heritage/
+3) Canada Goose Women's Shelburne Parka Tonal Label — $1475 USD — score 0.290
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-tonal-label/
+4) Canada Goose Women's Shelburne Parka Black Label - Updated — $1475 USD — score 0.286
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-black-label-updated/
+5) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.284
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+
+TEST CASE 63
+================================================================================
+PROMPT: I want a men's waterproof rain jacket under 700 dollars for heavy storms.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 700.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'storm', 'waterproof']}
+MAPPING: [('rain', 'rain', 1.0), ('storm', 'storm', 1.0), ('waterproof', 'waterproof', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.674
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+2) Canada Goose Men's Stormont 1/4 Zip Sweater — $525 USD — score 0.418
+   https://www.escapeoutdoors.com/canada-goose-mens-stormont-1-4-zip-sweater/
+3) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.406
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+4) Canada Goose Men's Lockeport Jacket — $650 USD — score 0.386
+   https://www.escapeoutdoors.com/canada-goose-mens-lockeport-jacket/
+5) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.340
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+
+TEST CASE 64
+================================================================================
+PROMPT: I want a women's down coat under 1300 dollars for winter travel.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1300.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['down', 'coat', 'winter', 'travel']}
+MAPPING: [('down', 'down', 1.0), ('coat', 'coat', 1.0), ('winter', 'winter', 1.0), ('travel', 'travel', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.667
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.643
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.476
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+4) Canada Goose Women's Davie Jacket — $595 USD — score 0.469
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+5) Canada Goose Women's Hybridge Lite Hooded Coat — $725 USD — score 0.468
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hooded-coat/
+
+TEST CASE 65
+================================================================================
+PROMPT: I want a men's windproof winter coat under 1600 dollars for daily use.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1600.0, 'gender': 'men', 'tei': 4, 'use_case': 'everyday', 'waterproof': True, 'windproof': True, 'keywords': ['winter', 'coat', 'windproof']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('windproof', 'windproof', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Hoody — $875 USD — score 0.664
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+2) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.663
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+3) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.648
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+4) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.508
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+5) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.504
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+
+TEST CASE 66
+================================================================================
+PROMPT: I want a women's rainproof jacket under 900 dollars for commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 900.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': None, 'keywords': ['jacket', 'commute', 'waterproof']}
+MAPPING: [('jacket', 'jacket', 1.0), ('commuting', 'commute', 0.917), ('rainproof', 'waterproof', 0.861)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.505
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Davie Jacket — $595 USD — score 0.486
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+3) Canada Goose Women's Salida Jacket — $650 USD — score 0.484
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+4) Canada Goose Women's Ellison Jacket — $895 USD — score 0.476
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+5) Canada Goose Women's Cypress Jacket — $895 USD — score 0.474
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-jacket/
+
+TEST CASE 67
+================================================================================
+PROMPT: I want a men's warm parka under 1800 dollars for snowy environments.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1800.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['snow', 'parka', 'warmth']}
+MAPPING: [('snow', 'snow', 1.0), ('parka', 'parka', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Men's Chateau Parka Heritage — $1775 USD — score 0.670
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-heritage/
+2) Canada Goose Men's Chateau Parka Black Label Heritage — $1775 USD — score 0.655
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-black-label-heritage/
+3) Canada Goose Men's Carson Parka — $1495 USD — score 0.642
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka/
+4) Canada Goose Men's Carson Parka Heritage — $1775 USD — score 0.627
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka-heritage/
+5) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.588
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+
+TEST CASE 68
+================================================================================
+PROMPT: I want a women's everyday winter jacket under 1000 dollars for city life.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1000.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['tricot', 'insulated', 'cotton', 'thermal', 'outdoor', 'performance', 'jacket', 'city']}
+MAPPING: [('tricot', 'tricot', 1.0), ('insulated', 'insulated', 1.0), ('cotton', 'cotton', 1.0), ('thermal', 'thermal', 1.0), ('outdoor', 'outdoor', 1.0), ('performance', 'performance', 1.0), ('jacket', 'jacket', 1.0), ('city', 'city', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.708
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+2) Canada Goose Women's Minden Jacket — $595 USD — score 0.690
+   https://www.escapeoutdoors.com/canada-goose-womens-minden-jacket/
+3) Canada Goose Women's Cypress Jacket — $895 USD — score 0.685
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-jacket/
+4) Canada Goose Women's Davie Jacket — $595 USD — score 0.684
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+5) Canada Goose Women's Ellison Jacket — $895 USD — score 0.683
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+
+TEST CASE 69
+================================================================================
+PROMPT: I want a men's waterproof jacket under 800 dollars for biking in rain.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 800.0, 'gender': 'men', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'waterproof']}
+MAPPING: [('rain', 'rain', 1.0), ('waterproof', 'waterproof', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.727
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.659
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+3) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.444
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+4) Canada Goose Men's Stormont 1/4 Zip Sweater — $525 USD — score 0.411
+   https://www.escapeoutdoors.com/canada-goose-mens-stormont-1-4-zip-sweater/
+5) Canada Goose Men's Lockeport Jacket — $650 USD — score 0.385
+   https://www.escapeoutdoors.com/canada-goose-mens-lockeport-jacket/
+
+TEST CASE 70
+================================================================================
+PROMPT: I want a women's insulated winter coat under 1400 dollars for cold weather.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1400.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'winter', 'coat', 'cold', 'rain']}
+MAPPING: [('insulated', 'insulated', 1.0), ('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('cold', 'cold', 1.0), ('weather', 'rain', 0.669)]
+
+RESULTS:
+1) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.660
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.641
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Marlow Coat — $1375 USD — score 0.625
+   https://www.escapeoutdoors.com/canada-goose-womens-marlow-coat/
+4) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.494
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+5) Canada Goose Women's Hybridge Lite Hooded Coat — $725 USD — score 0.492
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hooded-coat/
+
+TEST CASE 71
+================================================================================
+PROMPT: I want a men's down winter coat under 1500 dollars for extremely cold conditions.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'men', 'tei': 5, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'winter', 'coat', 'cold']}
+MAPPING: [('down', 'down', 1.0), ('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('cold', 'cold', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.656
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Carson Parka — $1495 USD — score 0.644
+   https://www.escapeoutdoors.com/canada-goose-mens-carson-parka/
+3) Canada Goose Men's Woolford Jacket — $850 USD — score 0.561
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+4) Canada Goose Men's Lodge Hoody — $875 USD — score 0.546
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+5) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.524
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+
+TEST CASE 72
+================================================================================
+PROMPT: I want a women's warm travel jacket under 1200 dollars for winter vacations.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1200.0, 'gender': 'women', 'tei': None, 'use_case': 'travel', 'waterproof': None, 'windproof': None, 'keywords': ['travel', 'jacket', 'winter', 'warmth']}
+MAPPING: [('travel', 'travel', 1.0), ('jacket', 'jacket', 1.0), ('winter', 'winter', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.706
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+2) Canada Goose Women's Davie Jacket — $595 USD — score 0.699
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+3) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.698
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+4) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.694
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+5) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.692
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+
+TEST CASE 73
+================================================================================
+PROMPT: I want a men's winter jacket under 1000 dollars that is windproof.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': None, 'price_max': 1000.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': True, 'keywords': ['winter', 'windproof']}
+MAPPING: [('winter', 'winter', 1.0), ('windproof', 'windproof', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.687
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Lodge Hoody — $875 USD — score 0.684
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+3) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.680
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+4) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.537
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+5) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.524
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+
+TEST CASE 74
+================================================================================
+PROMPT: I want a women's snow parka under 1800 dollars for outdoor winter activities.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1800.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': True, 'windproof': True, 'keywords': ['snow', 'parka']}
+MAPPING: [('snow', 'snow', 1.0), ('parka', 'parka', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Chelsea Parka Heritage — $1650 USD — score 0.318
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka-heritage/
+2) Canada Goose Women's Rossclair Parka Heritage — $1775 USD — score 0.299
+   https://www.escapeoutdoors.com/canada-goose-womens-rossclair-parka-heritage/
+3) Canada Goose Women's Shelburne Parka Black Label - Updated — $1475 USD — score 0.294
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-black-label-updated/
+4) Canada Goose Women's Shelburne Parka Tonal Label — $1475 USD — score 0.293
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-tonal-label/
+5) Canada Goose Women's Rossclair Parka Print — $1695 USD — score 0.283
+   https://www.escapeoutdoors.com/canada-goose-women-s-rossclair-parka-print/
+
+TEST CASE 75
+================================================================================
+PROMPT: I want a men's waterproof winter jacket under 1200 dollars for commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1200.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': None, 'keywords': ['waterproof', 'winter', 'jacket', 'commute']}
+MAPPING: [('waterproof', 'waterproof', 1.0), ('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('commuting', 'commute', 0.917)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.694
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.614
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+3) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.492
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+4) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.491
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+5) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.485
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+
+TEST CASE 76
+================================================================================
+PROMPT: I want a women's warm coat under 1500 dollars for everyday winter wear.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['jacket', 'everyday', 'winter', 'warmth']}
+MAPPING: [('jacket', 'jacket', 1.0), ('everyday', 'everyday', 1.0), ('winter', 'winter', 1.0), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.695
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.671
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Marlow Coat — $1375 USD — score 0.664
+   https://www.escapeoutdoors.com/canada-goose-womens-marlow-coat/
+4) Canada Goose Women's Chelsea Parka — $1350 USD — score 0.528
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka/
+5) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.525
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+
+TEST CASE 77
+================================================================================
+PROMPT: I want a men's down jacket under 900 dollars for cold mornings.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 900.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['down', 'jacket', 'cold']}
+MAPPING: [('down', 'down', 1.0), ('jacket', 'jacket', 1.0), ('cold', 'cold', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Woolford Jacket — $850 USD — score 0.680
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+2) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.670
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+3) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.669
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+4) Canada Goose Men's Lodge Hoody — $875 USD — score 0.650
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+5) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.649
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+
+TEST CASE 78
+================================================================================
+PROMPT: I want a women's winter jacket under 1100 dollars that is waterproof.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': None, 'price_max': 1100.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': True, 'windproof': None, 'keywords': ['winter', 'waterproof', 'jacket']}
+MAPPING: [('winter', 'winter', 1.0), ('waterproof', 'waterproof', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.533
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Davie Jacket — $595 USD — score 0.508
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+3) Canada Goose Women's Salida Jacket — $650 USD — score 0.506
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+4) Canada Goose Women's Ellison Jacket — $895 USD — score 0.504
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+5) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.502
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+
+TEST CASE 79
+================================================================================
+PROMPT: I want a men's windproof parka under 1700 dollars for snowy weather.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1700.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': True, 'windproof': True, 'keywords': ['snow', 'parka', 'windproof']}
+MAPPING: [('snow', 'snow', 1.0), ('parka', 'parka', 1.0), ('windproof', 'windproof', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's MacMillan Parka Wool — $1425 USD — score 0.650
+   https://www.escapeoutdoors.com/canada-goose-mens-macmillan-parka-wool/
+2) Canada Goose Men's Lodge Hoody — $875 USD — score 0.598
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+3) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.588
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+4) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.585
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+5) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.582
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+
+TEST CASE 80
+================================================================================
+PROMPT: I want a women's insulated coat under 1400 dollars for commuting to work.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1400.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'jacket', 'commute']}
+MAPPING: [('insulated', 'insulated', 1.0), ('jacket', 'jacket', 1.0), ('commute', 'commute', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Chelsea Parka — $1350 USD — score 0.502
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka/
+2) Canada Goose Women's Chelsea Parka Black Label - Updated — $1350 USD — score 0.499
+   https://www.escapeoutdoors.com/canada-goose-women-s-chelsea-parka-black-label-updated/
+3) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.498
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+4) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.496
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+5) Canada Goose Women's Aurora Parka — $1350 USD — score 0.494
+   https://www.escapeoutdoors.com/canada-goose-womens-aurora-parka/
+
+TEST CASE 81
+================================================================================
+PROMPT: I want a men's rain jacket under 700 dollars for wet weather cycling.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 700.0, 'gender': 'men', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'jacket']}
+MAPPING: [('rain', 'rain', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.671
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+2) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.456
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+3) Canada Goose Men's Lockeport Jacket — $650 USD — score 0.402
+   https://www.escapeoutdoors.com/canada-goose-mens-lockeport-jacket/
+4) Canada Goose Men's Hybridge Knit Vest — $525 USD — score 0.372
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest/
+5) Canada Goose Men's Hybridge Knit Vest Black Label — $525 USD — score 0.356
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-knit-vest-black-label/
+
+TEST CASE 82
+================================================================================
+PROMPT: I want a women's warm winter coat under 1600 dollars for extreme cold.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1600.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'coat', 'extreme_cold', 'warmth']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('extreme_cold', 'extreme_cold', 0.866), ('warm', 'warmth', 0.833)]
+
+RESULTS:
+1) Canada Goose Women's Alliston Coat — $1095 USD — score 0.626
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+2) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.535
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+3) Canada Goose Women's Marlow Coat — $1375 USD — score 0.523
+   https://www.escapeoutdoors.com/canada-goose-womens-marlow-coat/
+4) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.479
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+5) Canada Goose Women's Hybridge Lite Hooded Coat — $725 USD — score 0.477
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hooded-coat/
+
+TEST CASE 83
+================================================================================
+PROMPT: I want a men's winter coat under 1200 dollars that is durable.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': None, 'price_max': 1200.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': None, 'windproof': None, 'keywords': ['down', 'coat']}
+MAPPING: [('down', 'down', 1.0), ('coating', 'coat', 0.629)]
+
+RESULTS:
+1) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.470
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+2) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.465
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+3) Canada Goose Men's Lodge Hoody — $875 USD — score 0.462
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+4) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.459
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+5) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.444
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+
+TEST CASE 84
+================================================================================
+PROMPT: I want a women's down jacket under 1000 dollars for casual winter wear.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1000.0, 'gender': 'women', 'tei': None, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'jacket', 'winter']}
+MAPPING: [('down', 'down', 1.0), ('jacket', 'jacket', 1.0), ('winter', 'winter', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Davie Jacket — $595 USD — score 0.700
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+2) Canada Goose Women's Ellison Jacket — $895 USD — score 0.683
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+3) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.680
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+4) Canada Goose Women's Kenora Jacket — $625 USD — score 0.679
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+5) Canada Goose Women's Cypress Hoody Black Label — $950 USD — score 0.677
+   https://www.escapeoutdoors.com/canada-goose-womens-cypress-hoody-black-label/
+
+TEST CASE 85
+================================================================================
+PROMPT: I want a men's waterproof winter coat under 1500 dollars for commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1500.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': None, 'keywords': ['winter', 'coat', 'waterproof', 'commute']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('waterproof', 'waterproof', 1.0), ('commuting', 'commute', 0.917)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.649
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.581
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+3) Canada Goose Men's Lodge Hoody — $875 USD — score 0.269
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+4) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.269
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+5) Canada Goose Men's MacMillan Parka Wool — $1425 USD — score 0.268
+   https://www.escapeoutdoors.com/canada-goose-mens-macmillan-parka-wool/
+
+TEST CASE 86
+================================================================================
+PROMPT: I want a women's snow jacket under 1800 dollars for winter sports.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1800.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': True, 'keywords': ['snow', 'jacket', 'winter']}
+MAPPING: [('snow', 'snow', 1.0), ('jacket', 'jacket', 1.0), ('winter', 'winter', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.539
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.525
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+3) Canada Goose Women's Rossclair Parka Heritage — $1775 USD — score 0.525
+   https://www.escapeoutdoors.com/canada-goose-womens-rossclair-parka-heritage/
+4) Canada Goose Women's Davie Jacket — $595 USD — score 0.520
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+5) Canada Goose Women's Salida Jacket — $650 USD — score 0.514
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+
+TEST CASE 87
+================================================================================
+PROMPT: I want a men's insulated parka under 2000 dollars for very cold temperatures.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 2000.0, 'gender': 'men', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['insulated', 'parka', 'cold']}
+MAPPING: [('insulated', 'insulated', 1.0), ('parka', 'parka', 1.0), ('cold', 'cold', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Hybridge Jacket — $895 USD — score 0.571
+   https://www.escapeoutdoors.com/canada-goose-mens-hybridge-jacket/
+2) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.571
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+3) Canada Goose Men's Lodge Hoody — $875 USD — score 0.568
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+4) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.562
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+5) Canada Goose Men's Chateau Parka Heritage — $1775 USD — score 0.485
+   https://www.escapeoutdoors.com/canada-goose-mens-chateau-parka-heritage/
+
+TEST CASE 88
+================================================================================
+PROMPT: I want a women's rain jacket under 900 dollars for stormy weather.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 900.0, 'gender': 'women', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'storm', 'jacket']}
+MAPPING: [('rain', 'rain', 1.0), ('storm', 'storm', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Kenora Jacket — $625 USD — score 0.558
+   https://www.escapeoutdoors.com/canada-goose-womens-kenora-jacket/
+2) Canada Goose Women's Salida Jacket — $650 USD — score 0.538
+   https://www.escapeoutdoors.com/canada-goose-womens-salida-jacket/
+3) Canada Goose Women's Ellison Jacket — $895 USD — score 0.511
+   https://www.escapeoutdoors.com/canada-goose-womens-ellison-jacket/
+4) Canada Goose Women's Davie Jacket — $595 USD — score 0.506
+   https://www.escapeoutdoors.com/canada-goose-womens-davie-jacket/
+5) Canada Goose Women's Hybridge Knit Jacket — $695 USD — score 0.492
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-knit-jacket/
+
+TEST CASE 89
+================================================================================
+PROMPT: I want a men's winter jacket under 1000 dollars for everyday wear.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1000.0, 'gender': 'men', 'tei': 4, 'use_case': 'everyday', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'jacket', 'everyday']}
+MAPPING: [('winter', 'winter', 1.0), ('jacket', 'jacket', 1.0), ('everyday', 'everyday', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Crofton Jacket Black Label — $895 USD — score 0.673
+   https://www.escapeoutdoors.com/canada-goose-mens-crofton-jacket-black-label/
+2) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.669
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+3) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.665
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+4) Canada Goose Men's Woolford Jacket — $850 USD — score 0.664
+   https://www.escapeoutdoors.com/canada-goose-mens-woolford-jacket/
+5) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.660
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+
+TEST CASE 90
+================================================================================
+PROMPT: I want a women's warm parka under 1700 dollars for cold climates.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1700.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['parka', 'cold', 'warmth', 'winter']}
+MAPPING: [('parka', 'parka', 1.0), ('cold', 'cold', 1.0), ('warm', 'warmth', 0.833), ('climates', 'winter', 0.605)]
+
+RESULTS:
+1) Canada Goose Women's Chelsea Parka Heritage — $1650 USD — score 0.351
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka-heritage/
+2) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.313
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+3) Canada Goose Women's Chelsea Parka Black Label - Updated — $1350 USD — score 0.313
+   https://www.escapeoutdoors.com/canada-goose-women-s-chelsea-parka-black-label-updated/
+4) Canada Goose Women's Chelsea Parka — $1350 USD — score 0.309
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka/
+5) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.307
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+
+TEST CASE 91
+================================================================================
+PROMPT: I want a men's waterproof jacket under 800 dollars for rainy days.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 800.0, 'gender': 'men', 'tei': None, 'use_case': 'rain', 'waterproof': True, 'windproof': None, 'keywords': ['rain', 'waterproof', 'jacket']}
+MAPPING: [('rain', 'rain', 1.0), ('waterproof', 'waterproof', 1.0), ('jacket', 'jacket', 1.0)]
+
+RESULTS:
+1) Canada Goose Men's Rupert Rain Jacket Black Label — $750 USD — score 0.751
+   https://www.escapeoutdoors.com/canada-goose-men-s-rupert-rain-jacket-black-label/
+2) Canada Goose Men's Nanaimo Jacket — $575 USD — score 0.656
+   https://www.escapeoutdoors.com/canada-goose-mens-nanaimo-jacket/
+3) Canada Goose Men's Freestyle Vest PBI — $700 USD — score 0.429
+   https://www.escapeoutdoors.com/canada-goose-mens-freestyle-vest-pbi/
+4) Canada Goose Men's Stormont 1/4 Zip Sweater — $525 USD — score 0.409
+   https://www.escapeoutdoors.com/canada-goose-mens-stormont-1-4-zip-sweater/
+5) Canada Goose Men's Lockeport Jacket — $650 USD — score 0.404
+   https://www.escapeoutdoors.com/canada-goose-mens-lockeport-jacket/
+
+TEST CASE 92
+================================================================================
+PROMPT: I want a women's winter coat under 1300 dollars for travel.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1300.0, 'gender': 'women', 'tei': None, 'use_case': 'travel', 'waterproof': None, 'windproof': None, 'keywords': ['winter', 'coat', 'travel']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('travel', 'travel', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Clair Coat - Updated — $1050 USD — score 0.664
+   https://www.escapeoutdoors.com/canada-goose-women-s-clair-coat-updated/
+2) Canada Goose Women's Alliston Coat — $1095 USD — score 0.637
+   https://www.escapeoutdoors.com/canada-goose-womens-alliston-coat/
+3) Canada Goose Women's Hybridge Lite Hooded Coat — $725 USD — score 0.624
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hooded-coat/
+4) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.295
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+5) Canada Goose Women's Hybridge Lite Hoody CR — $795 USD — score 0.295
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hoody-cr/
+
+TEST CASE 93
+================================================================================
+PROMPT: I want a men's windproof winter coat under 1600 dollars for commuting.
+FALLBACK_USED: False
+MISSING_SLOTS: ['use_case']
+STATE: {'price_min': 0.0, 'price_max': 1600.0, 'gender': 'men', 'tei': None, 'use_case': None, 'waterproof': True, 'windproof': True, 'keywords': ['winter', 'coat', 'windproof', 'commute']}
+MAPPING: [('winter', 'winter', 1.0), ('coat', 'coat', 1.0), ('windproof', 'windproof', 1.0), ('commuting', 'commute', 0.917)]
+
+RESULTS:
+1) Canada Goose Men's Garson Vest Wool — $850 USD — score 0.654
+   https://www.escapeoutdoors.com/canada-goose-mens-garson-vest-wool/
+2) Canada Goose Men's Lodge Hoody — $875 USD — score 0.646
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-hoody/
+3) Canada Goose Men's MacMillan Parka Wool — $1425 USD — score 0.638
+   https://www.escapeoutdoors.com/canada-goose-mens-macmillan-parka-wool/
+4) Canada Goose Men's Lodge Jacket - Updated — $825 USD — score 0.636
+   https://www.escapeoutdoors.com/canada-goose-men-s-lodge-jacket-updated/
+5) Canada Goose Men's Lodge Jacket Black Label — $825 USD — score 0.616
+   https://www.escapeoutdoors.com/canada-goose-mens-lodge-jacket-black-label/
+
+TEST CASE 94
+================================================================================
+PROMPT: I want a women's down parka under 1900 dollars for very cold winters.
+FALLBACK_USED: False
+MISSING_SLOTS: []
+STATE: {'price_min': 0.0, 'price_max': 1900.0, 'gender': 'women', 'tei': None, 'use_case': 'extreme_cold', 'waterproof': None, 'windproof': None, 'keywords': ['down', 'parka', 'cold', 'winter']}
+MAPPING: [('down', 'down', 1.0), ('parka', 'parka', 1.0), ('cold', 'cold', 1.0), ('winter', 'winter', 1.0)]
+
+RESULTS:
+1) Canada Goose Women's Montebello Parka Heritage — $1495 USD — score 0.619
+   https://www.escapeoutdoors.com/canada-goose-womens-montebello-parka-heritage/
+2) Canada Goose Women's Chelsea Parka Heritage — $1650 USD — score 0.310
+   https://www.escapeoutdoors.com/canada-goose-womens-chelsea-parka-heritage/
+3) Canada Goose Women's Lorette Parka Notched Brim — $1195 USD — score 0.277
+   https://www.escapeoutdoors.com/canada-goose-women-s-lorette-parka-notched-brim/
+4) Canada Goose Women's Hybridge Lite Hoody CR — $795 USD — score 0.271
+   https://www.escapeoutdoors.com/canada-goose-womens-hybridge-lite-hoody-cr/
+5) Canada Goose Women's Shelburne Parka Tonal Label — $1475 USD — score 0.269
+   https://www.escapeoutdoors.com/canada-goose-women-s-shelburne-parka-tonal-label/
