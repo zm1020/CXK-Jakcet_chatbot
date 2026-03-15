@@ -4,8 +4,8 @@ import argparse
 import json
 from pathlib import Path
 
-from cs175_eval.exporting import export_expected_vs_actual, export_project_outputs
-from cs175_eval.pipeline import JacketRecommenderSystem
+from src.exporting import export_expected_vs_actual, export_project_outputs
+from src.pipeline import JacketRecommenderSystem
 
 def main() -> None:
     parser = argparse.ArgumentParser()

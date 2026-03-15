@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 
-from cs175_eval.pipeline import JacketRecommenderSystem
+from src.pipeline import JacketRecommenderSystem
 
 def main() -> None:
     parser = argparse.ArgumentParser()

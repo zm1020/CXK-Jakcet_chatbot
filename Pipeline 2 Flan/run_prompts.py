@@ -11,8 +11,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from cs175_eval.config import DEFAULT_METHODS
-from cs175_eval.pipeline import JacketRecommenderSystem
+from src.config import DEFAULT_METHODS
+from src.pipeline import JacketRecommenderSystem
 
 
 def load_prompts(path: str) -> list[str]:
